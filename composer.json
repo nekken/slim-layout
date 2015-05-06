@@ -1,0 +1,23 @@
+{
+    "name": "nekken/slim-layout",
+    "type": "library",
+    "description": "Layout Middleware for Slim Framework",
+    "keywords": ["slim", "middleware", "layout"],
+    "homepage": "https://github.com/nekken/slim-layout",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ken Nguyen",
+            "email": "ken@nekken.ca",
+            "homepage": "http://www.nekken.ca/"
+        }
+    ],
+    "require": {
+        "slim/slim": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slim\\Middleware\\": "src"
+        }
+    }
+}
