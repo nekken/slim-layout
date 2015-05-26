@@ -1,6 +1,6 @@
 <?php
 namespace Nekken\Middleware;
-class Layout extends \Slim\Middleware
+class Layout extends \Slim\Middleware 
 {
     protected $layoutScript;
     
