@@ -12,11 +12,6 @@ class Layout extends \Slim\Middleware
         }
     }
     
-    public function test()
-    {
-        return false;
-    }
-    
     public function call()
     {
         /* @var $view \Slim\View */
